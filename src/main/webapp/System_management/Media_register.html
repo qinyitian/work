@@ -1,0 +1,201 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Minimal and Clean Sign up / Login and Forgot Form by FreeHTML5.co</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FreeHTML5.co" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+
+
+
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link rel="stylesheet" href="../css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="../js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body class="style-3">
+
+<div class="container">
+	<div class="row">
+	</div>
+	<div class="row">
+		<div class="col-md-4 col-md-push-8">
+
+			<!-- Start Sign In Form -->
+			<form action="#" class="fh5co-form animate-box" data-animate-effect="fadeInRight">
+				<h2>媒 体 注 册</h2>
+				<!--
+                                        <div class="form-group">
+                                            <div class="alert alert-success" role="alert">Your info has been saved.</div>
+                                        </div>
+                -->
+				<div class="form-group">
+					<label for="account" ><font size=3>媒体机构名:</font></label>
+					<input type="text" class="form-control" id="name" name="media_name" placeholder="" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<label for="account" ><font size=3>邀请码:</font></label>
+					<input type="text" class="form-control" id="code" name="media_code" placeholder="" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<label for="account" ><font size=3>电话号码:</font></label>
+					<input type="text" class="form-control" id="Phone" name="media_phone" placeholder="" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<label for="account" ><font size=3>密码:</font></label>
+					<input type="password" class="form-control" id="Password" name="media_password" placeholder="" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<label for="account" ><font size=3>确认密码:</font></label>
+					<input type="password" class="form-control" id="re_password" name="media_re_password" placeholder="" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<a id="submit5" class="btn btn-info" role="button">免费获取验证码</a>
+					<!--<input type="submit" id="submit5" value="免费获取验证码" class="btn btn-defalut">-->
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="phone_code" name="media_ver_code" placeholder="填入验证码" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<p>已注册?<a href="Login.html">登录</a></p>
+				</div>
+				<div class="form-group">
+                    <a id="submit4" role="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">下一步</a>
+				</div>
+            </form>
+			<!-- END Sign In Form -->
+		</div>
+	</div>
+</div>
+
+
+<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">完善注册信息</h4>
+      </div>
+      <div class="modal-body">
+        <label for="account" ><font size=3>地址:</font></label>
+        <input type="text" class="form-control" id="media_address" name="media_name" placeholder="" autocomplete="off">
+        <label for="account" ><font size=3>电子邮箱:</font></label>
+        <input type="text" class="form-control" id="media_email" name="media_name" placeholder="" autocomplete="off">
+		  <label for="account" ><font size=3>介绍:</font></label>
+		  <input type="text" class="form-control" id="media_introduce" name="media_name" placeholder="" autocomplete="off">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="button" class="btn btn-default" id="registerMediaButton">注册</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+<!-- jQuery -->
+<script src="../js/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="../js/bootstrap.min.js"></script>
+<!-- Placeholder -->
+<script src="../js/jquery.placeholder.min.js"></script>
+<!-- Waypoints -->
+<script src="../js/jquery.waypoints.min.js"></script>
+<!-- Main JS -->
+<script src="../js/main.js"></script>
+
+
+<!-以下是ajax的请求代码-->
+<script>
+    $("#registerMediaButton").click(function() {
+            var Media_Name = document.getElementById("name").value;
+            var Invite_code = document.getElementById("code").value;
+            var password = document.getElementById("Password").value;
+            var phone = document.getElementById("Phone").value;
+            var phone_code=document.getElementById("phone_code").value;
+
+			var media_address = document.getElementById("media_address").value;
+			var media_email = document.getElementById("media_email").value;
+			var media_introduce = document.getElementById("media_introduce").value;
+
+            $.ajax({
+                type: "post",
+                traditional:true,
+                url: "/Register/Media_Register",//请求地址
+                data: {
+                    "Media_Name": Media_Name,
+                    "Invite_code": Invite_code,
+                    "password": password,
+                    "phone": phone,
+                    "phone_code": phone_code,
+                    "media_address": media_address,
+                    "media_email": media_email,
+                    "media_introduce": media_introduce
+                },//向后台提交的参数
+                success: function(data) {
+                    alert(data);
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    alert(XMLHttpRequest.status);
+                    alert(XMLHttpRequest.readyState);
+                    alert(textStatus);
+                }
+            })
+        }
+    )
+    $("#submit5").click(function() {
+            var phone = document.getElementById("Phone").value;
+            $.ajax({
+                type: "post",
+                traditional:true,
+                url: "/Register/code",//请求地址
+                data: {
+                    "phone": phone
+                },//向后台提交的参数
+                success: function(data) {
+                    alert(data);
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    alert(XMLHttpRequest.status);
+                    alert(XMLHttpRequest.readyState);
+                    alert(textStatus);
+                }
+            })
+        }
+
+    )
+</script>
+</body>
+</html>
+

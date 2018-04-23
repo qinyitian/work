@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Minimal and Clean Sign up / Login and Forgot Form by FreeHTML5.co</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Template by FreeHTML5.co" />
+	<meta name="keywords" content="free html5, free template, free bootstrap, html5, css3, mobile first, responsive" />
+
+
+
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content=""/>
+	<meta property="og:image" content=""/>
+	<meta property="og:url" content=""/>
+	<meta property="og:site_name" content=""/>
+	<meta property="og:description" content=""/>
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<link rel="shortcut icon" href="favicon.ico">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link rel="stylesheet" href="../css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="../js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body class="style-3">
+
+<div class="container">
+	<div class="row">
+	</div>
+	<div class="row">
+		<div class="col-md-4 col-md-push-8">
+
+			<!-- Start Sign In Form -->
+			<form action="#" class="fh5co-form animate-box" data-animate-effect="fadeInRight">
+				<h2>公 司 注 册</h2>
+				<!--
+                                        <div class="form-group">
+                                            <div class="alert alert-success" role="alert">Your info has been saved.</div>
+                                        </div>
+                -->
+				<div class="form-group">
+					<label for="account" ><font size=3>公司名:</font></label>
+					<input type="text" class="form-control" id="name" name="company_name">
+				</div>
+				<div class="form-group">
+					<label for="account" ><font size=3>邀请码:</font></label>
+					<input type="text" class="form-control" id="number" name="company_inviteCode" placeholder="" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<label for="account" ><font size=3>密码:</font></label>
+					<input type="password" class="form-control" id="password" name="company_password" placeholder="" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<label for="account" ><font size=3>确认密码:</font></label>
+					<input type="password" class="form-control" id="re_password" name="company_re_password" placeholder="" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<label for="account" ><font size=3>电话号码:</font></label>
+					<input class="form-control" id="Phone" name="Phone_number" placeholder="" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<a id="submit_gain" class="btn btn-info" role="button">免费获取验证码</a>
+					<!--<input type="submit" id="submit_gain" value="免费获取验证码" class="btn btn-defalut">-->
+				</div>
+				<div class="form-group">
+					<input type="text" class="form-control" id="phone_code" name="company_ver_code" placeholder="填入验证码" autocomplete="off">
+				</div>
+				<div class="form-group">
+					<p>已注册?<a href="Login.html">登录</a></p>
+				</div>
+				<div class="form-group">
+                    <a id="submit2"  class="btn btn-primary" role="button" data-toggle="modal" data-target="#myModal">下一步</a>
+				</div>
+			</form>
+			<!-- END Sign In Form -->
+		</div>
+	</div>
+</div>
+
+<div class="modal fade" tabindex="-1" role="dialog" id="myModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">完善注册信息</h4>
+      </div>
+      <div class="modal-body">
+        <label for="account" ><font size=3>企业地址:</font></label>
+        <input type="text" class="form-control" id="company_address" name="media_name" placeholder="" autocomplete="off">
+        <label for="account" ><font size=3>企业邮箱:</font></label>
+        <input type="text" class="form-control" id="company_email" name="media_name" placeholder="" autocomplete="off">
+        <label for="account" ><font size=3>企业经营范围:</font></label>
+        <input type="text" class="form-control" id="company_scope" name="media_name" placeholder="" autocomplete="off">
+        <label for="account" ><font size=3>企业执照号:</font></label>
+        <input type="text" class="form-control" id="company_license" name="media_name" placeholder="" autocomplete="off">
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+        <button type="button" class="btn btn-default" id="registerCompanyButton">注册</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+<!-- jQuery -->
+<script src="../js/jquery.min.js"></script>
+<!-- Bootstrap -->
+<script src="../js/bootstrap.min.js"></script>
+<!-- Placeholder -->
+<script src="../js/jquery.placeholder.min.js"></script>
+<!-- Waypoints -->
+<script src="../js/jquery.waypoints.min.js"></script>
+<!-- Main JS -->
+<script src="../js/main.js"></script>
+
+<!-以下是ajax的请求代码-->
+<script>
+    $("#registerCompanyButton").click(function() {
+            var Company_Name = document.getElementById("name").value;
+            var Company_Code = document.getElementById("number").value;
+            var Company_Password = document.getElementById("password").value;
+            var phone=document.getElementById("Phone").value;
+            var phone_code=document.getElementById("phone_code").value;
+
+        var company_address = document.getElementById("company_address").value;
+        var company_email = document.getElementById("company_email").value;
+        var company_scope=document.getElementById("company_scope").value;
+        var company_license=document.getElementById("company_license").value;
+            $.ajax({
+                type: "post",
+                traditional:true,
+                url: "/Register/Company_Register",//请求地址
+                data: {
+                    "Company_Name": Company_Name,
+                    "company_inviteCode": Company_Code,
+                    "Company_Password": Company_Password,
+                    "phone": phone,
+                    "phone_code": phone_code,
+
+                    "company_address": company_address,
+                    "company_email": company_email,
+                    "company_scope": company_scope,
+                    "company_license": company_license
+                },//向后台提交的参数
+                success: function(data) {
+                    alert(data);
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    alert(XMLHttpRequest.status);
+                    alert(XMLHttpRequest.readyState);
+                    alert(textStatus);
+                }
+            })
+        }
+
+    )
+</script>
+
+<script>
+    $("#submit_gain").click(function() {
+            var phone=document.getElementById("Phone").value;
+            $.ajax({
+                type: "post",
+                traditional:true,
+                url: "/Register/code",//请求地址
+                data: {
+                    "phone": phone
+                },//向后台提交的参数
+                success: function(data) {
+                    alert(phone);
+                },
+                error: function(XMLHttpRequest, textStatus, errorThrown) {
+                    alert(XMLHttpRequest.status);
+                    alert(XMLHttpRequest.readyState);
+                    alert(textStatus);
+                }
+            })
+        }
+
+    )
+</script>
+
+</body>
+</html>
+
